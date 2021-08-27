@@ -1,0 +1,167 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-27T05:34:43.873Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2209000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automationpractice.stepDefs.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verify product name",
+        "description": "",
+        "id": "verify-product-information;verify-product-name",
+        "after": [
+          {
+            "result": {
+              "duration": 685000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automationpractice.stepDefs.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7821000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on homepage",
+            "match": {
+              "location": "com.automationpractice.stepDefs.LoginStepDefinitions.i_am_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7470000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on Blouse",
+            "match": {
+              "location": "com.automationpractice.stepDefs.ProductInfoStepDefinitions.i_click_on_blouse()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 67000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The product name should be Blouse in the product page",
+            "match": {
+              "location": "com.automationpractice.stepDefs.ProductInfoStepDefinitions.the_product_name_should_be_blouse_in_the_product_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@temp"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-27T05:35:02.229Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1350000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automationpractice.stepDefs.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Verify product name using parametrization",
+        "description": "",
+        "id": "verify-product-information;verify-product-name-using-parametrization",
+        "after": [
+          {
+            "result": {
+              "duration": 707000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automationpractice.stepDefs.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7669000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I am on homepage",
+            "match": {
+              "location": "com.automationpractice.stepDefs.LoginStepDefinitions.i_am_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8193000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on \"Printed Dress\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Printed Dress\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.automationpractice.stepDefs.ProductInfoStepDefinitions.i_click_on(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 64000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "The product name should be correct",
+            "match": {
+              "location": "com.automationpractice.stepDefs.ProductInfoStepDefinitions.the_product_name_should_be_in_the_product_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@temp"
+          }
+        ]
+      }
+    ],
+    "name": "Verify product information",
+    "description": "",
+    "id": "verify-product-information",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com/automationpractice/features/products/product_info.feature",
+    "tags": []
+  }
+]

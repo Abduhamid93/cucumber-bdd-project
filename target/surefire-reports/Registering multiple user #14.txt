@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Registering multiple user #14
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.922 s - in Registering multiple user #14

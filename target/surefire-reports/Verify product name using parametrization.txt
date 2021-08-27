@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: Verify product name using parametrization
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 12.61 s <<< FAILURE! - in Verify product name using parametrization
+The product name should be correct(Verify product name using parametrization)  Time elapsed: 0.733 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-07B6KT4F', ip: '10.0.0.234', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\SHEYXH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59462}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 503a907718f3153fd8106c494e39536b
+
+Verify product name using parametrization  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-07B6KT4F', ip: '10.0.0.234', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\SHEYXH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59462}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 503a907718f3153fd8106c494e39536b
+
+Verify product name using parametrization  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:39155
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-07B6KT4F', ip: '10.0.0.234', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: RemoteWebDriver
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:39155
+Caused by: java.net.ConnectException: Connection refused: connect
+
